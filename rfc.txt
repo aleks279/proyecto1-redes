@@ -1,0 +1,115 @@
+Networking                                                        Allan Rojas
+Requests for comments: 0                                          Saul Zamora
+Obsoletes: 0
+Category: Standards Track
+
+
+
+                    WaveNET Transfer Protocol -- WTP/0.1
+
+Status of this Memo
+
+  This document specifies an Internet standards track protocol for the
+  Internet community and the networking subject on the second semester
+  of 2018, and requests discussion and suggestions for improvements.
+  Please refer to the current edition of the "Internet Official Protocol
+  Standards" (STD 1) for the standarization state and status of this protocol.
+  Distribution of this memo is unlimited.
+
+Copyright Notice
+
+  Copyright (C) 2018
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+
+Abstract
+
+  The WaveNET Transfer Protocol (WTP) is a physical through application level
+  protocol for distributed, collaborative information systems.
+
+
+
+
+
+Zamora, et al.                  Standards Track                      [Page 1]
+
+RFC 0001                          WaveNET/0.1                    October 2018
+
+
+Table of Contents
+
+    1   Introduction........................................................2
+    1.1   Purpose...........................................................2
+    1.2   Requirements......................................................2
+    1.3   Terminology.......................................................2
+    1.4   Overall Operation.................................................3
+    2   Notational Conventions and Generic Grammar..........................
+    2.1
+
+1 Introduction
+
+1.1 Purpose
+
+  The WaveNET Transfer Protocol (WTP) is an phisical through application level
+  protocol for distributed, collaborative information systems.
+
+  This specification defines the protocol referred to as "WTP/0.1". This
+  protocol includes requirements to ensurereliable implementation of its
+  features.
+
+  Practical information systems require the ability to send and retrieve
+  information.
+
+1.2 Requirements
+
+  - The system requires a RaspberryPi with the buzzer software (WaveNET trans-
+  mitter protocols) installed as an transmitter device, said software uses
+  Python 2.7.15 to run the buzzer.
+  - The receiving devices require at least JAVA 7 installed and the receiver
+  WaveNET protocols intalled.
+
+1.3 Terminology
+
+  This specification uses a number of terms to refer to the roles played
+  by participants in, and objects of, the WaveNET communication.
+
+  buzzer
+    WaveNET transmitter protocols.
+
+  receiver
+    Device connected to the WaveNET in which the receiver protocols are installed.
+    Identified with a physical address.
+  
+
+
+Zamora, et al.                  Standards Track                      [Page 2]
+
+RFC 0001                          WaveNET/0.1                    October 2018
+
+1.4 Overall Operation
+
+  The WaveNET system is a communication system, similar to TCP/IP. A client connects
+  to a network in order to transmit a message to a single or multiple receivers. 
+
+
+2 Notational Conventions and Generic Grammar
+
+Zamora, et al.                  Standards Track                      [Page 3]
+
+RFC 0001                          WaveNET/0.1                    October 2018
