@@ -17,10 +17,24 @@ def buzzerOnOne():
                 bz.off()
 		sleep(1.4)
                 i = i + 1
-                print ( "Sound" )
+                print ( "Sound One" )
 
+def buzzerOnZero():
 
-f = open("allan.txt", "rb")
+        i = 0
+        bz = Buzzer(17)
+
+        while  i < 1 :
+
+                bz.on()
+                sleep(1)
+                bz.off()
+		sleep(1.4)
+		bz.on()
+		sleep(0.5)
+                i = i + 1
+                print ( "Sound Zero" )
+
 byte = "C"
 try:
 
@@ -46,18 +60,3 @@ finally:
     f.close()
 
 
-
-
-
-
-f = open("myfile", "rb")
-
-try:
-    byte = f.read(1)
-    while byte != "":
-        # Do stuff with byte.
-        byte = f.read(1)
-
-        bz.on()
-finally:
-    f.close()
