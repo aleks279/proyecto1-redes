@@ -1,0 +1,41 @@
+environment:
+  # This key is encrypted using secdev's appveyor private key,
+  # dissected only on master builds (not PRs) and is used during
+  # npcap OEM installation
+  npcap_oem_key:
+    secure: d120KTZBsVnzZ+pFPLPEOTOkyJxTVRjhbDJn9L+RYnM=
+  # Python versions that will be tested
+  # Note: it defines variables that can be used later
+  matrix:
+    - PYTHON: "C:\\Python27-x64"
+      PYTHON_VERSION: "2.7.x"
+      PYTHON_ARCH: "64"
+      TOXENV: "py27-windows"
+    - PYTHON: "C:\\Python36-x64"
+      PYTHON_VERSION: "3.6.x"
+      PYTHON_ARCH: "64"
+      TOXENV: "py36-windows"
+
+# There is no build phase for Scapy
+build: off
+
+install:
+  # Install the npcap, windump and wireshark suites
+  - ps: .\.appveyor\InstallNpcap.ps1
+  - ps: .\.appveyor\InstallWindump.ps1
+  - choco install -y wireshark
+  # Install Python modules
+  - "%PYTHON%\\python -m pip install tox"
+  - set PATH=%PYTHON%\\Scripts\\;%PATH%
+
+test_script:
+  # Set environment variables
+  - set PYTHONPATH=%APPVEYOR_BUILD_FOLDER%
+  - set PATH=%APPVEYOR_BUILD_FOLDER%;C:\Program Files\Wireshark\;C:\Program Files\Windump\;%PATH%
+  
+  # Main unit tests
+  - "%PYTHON%\\python -m tox"
+
+after_test:
+  # Install & run codecov
+  - tox -e codecov
