@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  29 OCT 2018 16:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  29 OCT 2018 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -153,9 +153,9 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
- [1] [2]
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:172: Undefined control sequence.
-l.172   [online] Available at: \url
+ [1] [2] [3]
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:195: Undefined control sequence.
+l.195   [online] Available at: \url
                                    {https://gpiozero.readthedocs.io/en/stabl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -164,18 +164,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 []\OT1/cmr/m/n/10 Gpiozero.readthedocs.io. (2018). \OT1/cmr/m/it/10 13. API - Out-put De-vices
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 \OT1/cmr/m/it/10 | Gpi-ozero 1.4.1 Doc-u-men-ta-tion. \OT1/cmr/m/n/10 [on-line] Avail-able at:
  []
 
-[3]
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:176: Undefined control sequence.
-l.176   [online] Scapy.net. Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:199: Undefined control sequence.
+l.199   [online] Scapy.net. Available at: \url
                                               {https://scapy.net/}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -184,12 +183,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--177
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
 []\OT1/cmr/m/n/10 community., P. (2018). \OT1/cmr/m/it/10 Scapy. \OT1/cmr/m/n/10 [on-line] Scapy.net. Avail-able at:
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:179: Undefined control sequence.
-l.179   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:202: Undefined control sequence.
+l.202   [online] Available at: \url
                                    {https://github.com/secdev/scapy}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -198,12 +197,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 []\OT1/cmr/m/n/10 GitHub. (2018). \OT1/cmr/m/it/10 secde-v/s-capy. \OT1/cmr/m/n/10 [on-line] Avail-able at:
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:182: Undefined control sequence.
-l.182   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:205: Undefined control sequence.
+l.205   [online] Available at: \url
                                    {https://docs.python.org/3.3/library/hash...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -212,17 +211,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 181--183
+Underfull \hbox (badness 4013) in paragraph at lines 204--206
 []\OT1/cmr/m/n/10 Docs.python.org. (2018). \OT1/cmr/m/it/10 15.1. hash-lib | Se-cure hashes and mes-
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 181--183
+Underfull \hbox (badness 3428) in paragraph at lines 204--206
 \OT1/cmr/m/it/10 sage di-gests | Python 3.3.7 doc-u-men-ta-tion. \OT1/cmr/m/n/10 [on-line] Avail-able at:
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:185: Undefined control sequence.
-l.185   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:208: Undefined control sequence.
+l.208   [online] Available at: \url
                                    {http://www.ieee802.org/IEEE-802-LMSC-Ove...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -230,8 +229,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:188: Undefined control sequence.
-l.188 ...e] Dm295.blogspot.com. Available at: \url
+[4]
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:211: Undefined control sequence.
+l.211 ...e] Dm295.blogspot.com. Available at: \url
                                                   {https://dm295.blogspot.co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -240,22 +240,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 []\OT1/cmr/m/n/10 scraping, T. (2018). \OT1/cmr/m/it/10 Tor IP chang-ing and web
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 \OT1/cmr/m/it/10 scrap-ing. \OT1/cmr/m/n/10 [on-line] Dm295.blogspot.com. Avail-able at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
 \OT1/cmr/m/n/10 https://dm295.blogspot.com/2016/02/tor-ip-changing-and-web-
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:191: Undefined control sequence.
-l.191   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:214: Undefined control sequence.
+l.214   [online] Available at: \url
                                    {https://eprint.iacr.org/2011/308.pdf}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -264,12 +264,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 []\OT1/cmr/m/it/10 Eprint.iacr.org. \OT1/cmr/m/n/10 (2018). [on-line] Avail-able at:
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:194: Undefined control sequence.
-l.194   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:217: Undefined control sequence.
+l.217   [online] Available at: \url
                                    {https://www.onion-router.net/Archives/Ro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -278,17 +278,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 []\OT1/cmr/m/n/10 Onion-router.net. (2018). \OT1/cmr/m/it/10 Onion Rout-ing: Path Se-lec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 \OT1/cmr/m/it/10 tion Al-go-rithms. \OT1/cmr/m/n/10 [on-line] Avail-able at: https://www.onion-
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:197: Undefined control sequence.
-l.197   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:220: Undefined control sequence.
+l.220   [online] Available at: \url
                                    {https://www.onion-router.net/Archives/Ro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -297,17 +297,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 196--198
+Underfull \hbox (badness 7963) in paragraph at lines 219--221
 []\OT1/cmr/m/n/10 Onion-router.net. (2018). \OT1/cmr/m/it/10 Onion Rout-ing: In-ves-ti-ga-tion of Route
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 \OT1/cmr/m/it/10 Se-lec-tion Al-go-rithms. \OT1/cmr/m/n/10 [on-line] Avail-able at: https://www.onion-
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:200: Undefined control sequence.
-l.200   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:223: Undefined control sequence.
+l.223   [online] Available at: \url
                                    {https://es.wikipedia.org/wiki/Internet_R...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -315,20 +315,20 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:200: Missing $ inserted.
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:223: Missing $ inserted.
 <inserted text> 
                 $
-l.200 ...l{https://es.wikipedia.org/wiki/Internet_
+l.223 ...l{https://es.wikipedia.org/wiki/Internet_
                                                   Relay_Chat}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 200.
+(Font)              <7> on input line 223.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 200.
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:200: Extra }, or forgotten $.
-l.200 ...s.wikipedia.org/wiki/Internet_Relay_Chat}
+(Font)              <5> on input line 223.
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:223: Extra }, or forgotten $.
+l.223 ...s.wikipedia.org/wiki/Internet_Relay_Chat}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -336,18 +336,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:201: Missing $ inserted.
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:224: Missing $ inserted.
 <inserted text> 
                 $
-l.201 
+l.224 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:201: Missing } inserted.
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:224: Missing } inserted.
 <inserted text> 
                 }
-l.201 
+l.224 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -356,12 +356,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 199--201
+Underfull \hbox (badness 1590) in paragraph at lines 222--224
 []\OT1/cmr/m/n/10 Es.wikipedia.org. (2018). \OT1/cmr/m/it/10 In-ter-net Re-lay Chat. \OT1/cmr/m/n/10 [on-line] Avail-able at:
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:203: Undefined control sequence.
-l.203   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:226: Undefined control sequence.
+l.226   [online] Available at: \url
                                    {http://es.tldp.org/COMO-INSFLUG/COMOs/Se...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -370,17 +370,17 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 202--204
+Underfull \hbox (badness 3009) in paragraph at lines 225--227
 []\OT1/cmr/m/n/10 Es.tldp.org. (2018). \OT1/cmr/m/it/10 In-sta-laci^^Son y con-fig-u-raci^^Son de un servi-dor de
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 202--204
+Underfull \hbox (badness 3396) in paragraph at lines 225--227
 \OT1/cmr/m/it/10 IRC: In-tro-ducci^^Son. \OT1/cmr/m/n/10 [on-line] Avail-able at: http://es.tldp.org/COMO-
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:206: Undefined control sequence.
-l.206   [online] Available at: \url
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:229: Undefined control sequence.
+l.229   [online] Available at: \url
                                    {http://www.rfc-editor.org/rfc/rfc1459.txt}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -389,14 +389,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 []\OT1/cmr/m/it/10 Rfc-editor.org. (2018). \OT1/cmr/m/n/10 [on-line] Avail-able at: http://www.rfc-
  []
 
-/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:207: Missing } inserted.
+/Users/aleks/Documents/TEC/Redes/proyecto1/documentacion/documentacion.tex:230: Missing } inserted.
 <inserted text> 
                 }
-l.207 \end{thebibliography}
+l.230 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -404,7 +404,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[4] (./documentacion.aux)
+[5] (./documentacion.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -416,12 +416,12 @@ Here is how much of TeX's memory you used:
  6805 multiletter control sequences out of 15000+600000
  6754 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,358b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,43p,358b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on documentacion.pdf (5 pages, 114885 bytes).
+Output written on documentacion.pdf (6 pages, 118744 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

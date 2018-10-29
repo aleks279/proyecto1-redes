@@ -60,6 +60,29 @@ Dado lo anterior, el objetivo del presente proyecto es conocer distintas solucio
 Con las clases e interfaces mencionadas, se hace un ciclo para leer el flujo de datos entrante, definir el formato y decifrar el contenido. Luego se imprime el mensaje recibido en la consola.
 
 \section{Instrucciones de ejecuci\'on}
+\subsection{WaveNET}
+\begin{itemize}
+  \item Ejecutar el archivo \emph{WaveNet.java}
+  \item Luego de ejecutar el archivo, se tiene acceso a los siguientes comandos:
+  \begin{itemize}
+    \item \emph{/connect ( IP address )} : configura la IP. Identificiaci\'on con el dispositivo de transmisi\'on.
+    \item \emph{/listen()} : Se prepara para recibir datos.
+    \item \emph{/showFiles()} : Muestra una lista de archivos disponibles en la red.
+    \item \emph{/Disconnect()} : Termina la conexi\'on activa.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Dispositivo de Transmisi\'on}
+\begin{itemize}
+  \item Ejecutar \emph{python chat-server.py}
+  \item Luego de arrancar el servidor, se tiene acceso a los siguientes comandos:
+  \begin{itemize}
+    \item \emph{/showNodes} : Muestra una lista con los dispositivos conectados a WaveNet.
+    \item \emph{/selectNode} : Da la lista de dispositivos conectados donde se puede seleccionar uno para el envio de datos a trav\'ez de la red mesh.
+    \item \emph{/sendFile (filename, node)} : Desde el directorio principal, se selecciona un archivo para transmitir (path del archivo) y el dispositivo de destino.
+    \item \emph{/Disconnect} : WaveNet no permite acceso a m\'as dispositivos a la red.
+  \end{itemize}
+\end{itemize}
 \section{Bit\'acora de trabajo}
 \subsection{Allan Rojas}
 \begin{itemize}
