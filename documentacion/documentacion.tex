@@ -54,12 +54,50 @@ Dado lo anterior, el objetivo del presente proyecto es conocer distintas solucio
   \item Se hace uso de Java \emph{AudioFormat} para examinar y luego interpretar el formato de los datos de entrada.
   \item Se usa \emph{DataLine.Info} para guardar el tama\~no de buffer interno de almacenamiento.
   \item Se usa \emph{TargetDataLine} para leer el audio capturado por el buffer del \emph{DataLine}.
+  \item Se usa una base de datos MySQL en el Raspberry para llevar cuenta de los clientes conectados a la red.
 \end{itemize}
 
 Con las clases e interfaces mencionadas, se hace un ciclo para leer el flujo de datos entrante, definir el formato y decifrar el contenido. Luego se imprime el mensaje recibido en la consola.
 
 \section{Instrucciones de ejecuci\'on}
 \section{Bit\'acora de trabajo}
+\subsection{Allan Rojas}
+\begin{itemize}
+  \item 29-09-2018:
+  \begin{itemize}
+    \item 3 horas – Buzzer Python
+  \end{itemize}
+  \item 29-09-2018:
+  \begin{itemize}
+    \item 4 horas – Database for Node Directory with MariaDB
+  \end{itemize}
+  \item 30-09-2018:
+  \begin{itemize}
+    \item 4 horas – Java Audio Listening Programming
+  \end{itemize}
+  \item 30-09-2018:
+  \begin{itemize}
+    \item 3 horas – Media Access to Raspberry
+  \end{itemize}
+  \item 01-10-2018:
+  \begin{itemize}
+    \item 5 horas – Mac Address Get / Add to Package
+  \end{itemize}
+  \item 10-10-2018:
+  \begin{itemize}
+    \item 6 horas – Package Generation and Onion Routing
+  \end{itemize}
+  \item 19-10-2018:
+  \begin{itemize}
+    \item 4 horas – Scapy Implementation add to Buzzer
+  \end{itemize}
+  \item 29-10-2018:
+  \begin{itemize}
+    \item 6 horas – Scapy Implementation add to Buzzer
+  \end{itemize}
+\end{itemize}
+Total de Horas Trabajadas : 35
+
 \subsection{Sa\'ul Zamora}
 \begin{itemize}
   \item 23-09-2018:
@@ -107,11 +145,26 @@ Con las clases e interfaces mencionadas, se hace un ciclo para leer el flujo de 
   \begin{itemize}
     \item 4 horas - Documentaci\'on y RFC.
   \end{itemize}
+  \item 29-10-2018:
+  \begin{itemize}
+    \item 2 horas - Documentaci\'on y RFC.
+  \end{itemize}
 \end{itemize}
-Total de horas trabajadas: 31 horas.
+Total de horas trabajadas: 33 horas.
 
 \section{Comentarios finales}
+\begin{itemize}
+  \item El sistema maneja la conecci\'on de nuevos nodos (clientes) en una base de datos.
+  \item Se maneja el control de direcciones MAC.
+  \item Los clientes no distinguen si los paquetes recibidos son para ellos, entonces simplemente reciben y leen todos los paquetes, no desechan nada.
+  \item El algoritmo de cebolla todavia esta incompleto.
+\end{itemize}
+
 \section{Conclusiones}
+\begin{itemize}
+  \item Uno como usuario nomarlmente toma por sentado el funcionamiento de las redes de Internet. Despu\'es de intentar implementar una red con un comportamiento similar al de la red de Internet, es evidente la complejitud que lleva solucionar un problema como este.
+  \item A diferencia del proceso de comunicaci\'on convencional (conversaciones, dialogos, etc), las implementaciones digitales de dicho proceso plasman todas las complejidades del proceso que como seres humanos simplemente ya sabemos o tomamos por sentado.
+\end{itemize}
 
 \begin{thebibliography}{9}
   \bibitem{Gpiozero}

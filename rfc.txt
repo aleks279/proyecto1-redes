@@ -102,11 +102,22 @@ Zamora, et al.                  Standards Track                      [Page 2]
 
 RFC 0001                          WaveNET/0.1                    October 2018
 
+  mac address
+    A device's physical address.
+
+  ip address
+    A device's network address.
+
 1.4 Overall Operation
 
   The WaveNET system is a communication system, similar to TCP/IP. A client connects
-  to a network in order to transmit a message to a single or multiple receivers. 
+  to a network in order to transmit a message to a single or multiple receivers.
 
+  The clients' addresses are stored in the transmitter device in a MySQL database,
+  which makes device aware of the number and identity of the conneccted devices.
+
+  Tthe transmission protocol uses an onion algorithm to send messages from one client
+  to another.
 
 2 Notational Conventions and Generic Grammar
 
